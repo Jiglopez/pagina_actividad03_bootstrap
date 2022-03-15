@@ -1,0 +1,211 @@
+body{
+    margin: 0px;
+    padding: 0px
+    }
+
+#contenedor{
+    width:100%;
+    height:100%;
+    }
+
+#encabezado {
+    background-image:url(../img/bosque1.jpg);
+    width:100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#menu{
+        
+    font-size: 20px;
+    
+}
+    
+#titulo{
+    font-size: 35px;
+        
+    
+}
+
+    
+#menu a{
+    color: greenyellow;
+}
+
+#cuerpo{
+    font-size: 14pt;
+    color:rgb(35, 35, 39);
+    background-color:beige;
+    border: rgb(35, 35, 39) 5px solid;
+    border-bottom: rgb(35, 35, 39) 4px solid
+    
+
+}
+
+.sub_titulo1{
+    text-align: left;
+
+}
+
+.sub_titulo2{
+    text-align: right;
+
+}
+
+.sub_titulo3{
+    text-align: left;
+
+}
+
+.sub_titulo4{
+    text-align: right;
+
+}
+
+.imagen_cuerpo{
+    width: 500px;
+    height: 194px;
+    position: absolute;
+    margin-right: 10px;
+    line-height: 150px;
+    margin-top: -172px;
+    margin-left: 630px;
+
+
+}
+
+.imagen_cuerpo2{
+    width: 400px;
+    height: 100.7px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -16px;
+    margin-right: 630px;
+    margin-bottom: 8px;
+    
+}
+
+.marquesina{
+    background-color:rgb(35, 35, 39);
+    color: greenyellow;
+    -webkit-text-stroke: 0.0015px rgb(35, 35, 39);
+    height: 28px;
+    
+
+}
+
+#pie{
+    text-align: center;
+    background-color: beige;
+    border: rgb(35, 35, 39) 4px solid;
+    border-top: rgb(35, 35, 39) 0.5px solid;
+    
+}
+
+/* //////////////////////////////////////////// */
+
+.sub_titulo1_html2{
+    text-align: center;
+
+}
+
+.parrafo1{
+    text-align: center;
+    padding-left:15%;
+    padding-right: 15%;
+ -webkit-text-stroke: 0.01px whitesmoke;
+    font-size: 16pt;
+    
+}
+
+/* //////////////////////////////////////////// */
+
+.ol_html3{
+    list-style: circle;
+    display: block;
+    padding-left:  25%;
+    padding-right: 25%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 0.01px whitesmoke;
+    font-size: 16pt;
+    color: black;
+
+}
+
+
+/* //////////////////////////////////////////// */
+
+.subtitulo_c{
+    text-align: center;
+
+}
+
+.parrafo_c{
+    text-align: center;
+
+}
+
+.row{
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 1%;
+}
+
+.row label{
+    padding-left: 25%;
+
+}
+
+.form-floating{
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 1%;
+
+}
+
+.form-floating label{
+    padding-left: 20%;
+    padding-top: 4%;
+}
+
+.col-12{
+   padding-left: 47%;
+   padding-top: 1%;
+   padding-bottom: 4%;
+
+}
+
+.col-12 button{
+    color: greenyellow ;
+    background-color: rgb(35, 35, 39) ;
+
+}
+
+
+
+@media (max-width: 1100px){
+    .imagen_cuerpo{
+        margin-right: 55%;
+        margin-left: 45%;
+        margin-top: -160px;
+        height: 180px;
+        width: 300px;
+
+    }
+
+    .imagen_cuerpo2{
+        margin-right: 60%;
+        margin-left: 0%;
+        height: 75px;
+        width: 200px;
+        margin-top: -214px;
+
+    }
+
+}
+
