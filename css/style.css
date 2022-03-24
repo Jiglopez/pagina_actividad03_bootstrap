@@ -26,7 +26,6 @@ body{
 #titulo{
     font-size: 35px;
         
-    
 }
 
     
@@ -41,58 +40,36 @@ body{
     border: rgb(35, 35, 39) 5px solid;
     border-bottom: rgb(35, 35, 39) 4px solid
     
-
 }
 
 .sub_titulo1{
-    text-align: left;
+    text-align: center;
+    font-size: 50pt;
 
 }
 
 .sub_titulo2{
-    text-align: right;
+    text-align: center;
 
 }
 
 .sub_titulo3{
-    text-align: left;
+    text-align: center;
 
 }
 
 .sub_titulo4{
-    text-align: right;
+    text-align: center;
 
 }
 
-.imagen_cuerpo{
-    width: 500px;
-    height: 194px;
-    position: absolute;
-    margin-right: 10px;
-    line-height: 150px;
-    margin-top: -172px;
-    margin-left: 630px;
 
-
-}
-
-.imagen_cuerpo2{
-    width: 400px;
-    height: 100.7px;
-    position: absolute;
-    margin-left: 70px;
-    margin-top: -16px;
-    margin-right: 630px;
-    margin-bottom: 8px;
-    
-}
 
 .marquesina{
     background-color:rgb(35, 35, 39);
     color: greenyellow;
     -webkit-text-stroke: 0.0015px rgb(35, 35, 39);
     height: 28px;
-    
 
 }
 
@@ -131,7 +108,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     -webkit-text-stroke: 0.01px whitesmoke;
     font-size: 16pt;
-    color: black;
+    color: rgb(35, 35, 39);
 
 }
 
@@ -187,25 +164,4 @@ body{
 }
 
 
-
-@media (max-width: 1100px){
-    .imagen_cuerpo{
-        margin-right: 55%;
-        margin-left: 45%;
-        margin-top: -160px;
-        height: 180px;
-        width: 300px;
-
-    }
-
-    .imagen_cuerpo2{
-        margin-right: 60%;
-        margin-left: 0%;
-        height: 75px;
-        width: 200px;
-        margin-top: -214px;
-
-    }
-
-}
 
